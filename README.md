@@ -22,3 +22,15 @@
 - **User Feedback**
   - Alerts the user if expansion is invalid due to overlap:
   
+
+Note: `node_modules` and `.next` folders have been removed to reduce the repository size below 25 MB. Install dependencies after cloning.
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone <repository-url>
+cd <repository-folder>
+npm install
+npm run dev
