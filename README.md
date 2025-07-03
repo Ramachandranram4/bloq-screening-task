@@ -1,16 +1,24 @@
-# Bloq Quantum Full Stack Screening Task
+## Tasks Implemented
 
-*Are you ready to showcase your skills and help shape the future of quantum software? This is your chance to join a cutting-edge team building next-generation technology. This screening task will help us get a peek into your creativity and problem-solving abilities!*
+### **Task 1: Basic Circuit Board**
 
-**How to submit:**
-1. Fork this repository.
-2. Complete the task to the best of your ability.
-3. Provide read access to jay@bloq.in so we can review your code.
-4. Deploy it on Vercel or any deployment platform and submit the link in the form (.
+- **Drag and Drop Support**
+  - Users can drag gates (e.g., H, CG) from the Operators panel onto the Circuit board.
+- **Gate Placement**
+  - Gates can be placed on any qubit line in any column.
+- **Visual Rendering**
+  - Each qubit line displays gates aligned horizontally in columns.
 
-Follow the [steps to start a standard Next.js app](https://nextjs.org/docs/app/getting-started/installation#run-the-development-server) to get started.
-The task is described on the home page. 
+---
 
-We look forward to seeing what you can do. Good luck!
+### **Task 2: Support Gates of Varying Width**
 
-**For questions or clarifications: jay@bloq.in**
+- **Gate Expansion**
+  - Custom gates (e.g. CG) can expand to span multiple columns when required.
+- **Overlap Prevention**
+  - Ensures expanded gates do not overlap existing gates on any qubit line.
+- **Column Integrity**
+  - Gates spanning multiple columns effectively occupy only one gate slot per column across all qubits.
+- **User Feedback**
+  - Alerts the user if expansion is invalid due to overlap:
+  
